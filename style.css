@@ -1,0 +1,63 @@
+body{
+
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ 	background-position: top;
+ 	background-image:url(http://bit.ly/2gPLxZ4);
+
+}
+
+.container {
+	margin: 0 auto;
+	font-family: Arial, Helvetica;
+ 	letter-spacing: 0.02em;
+  	font-weight: 400;
+ 	-webkit-font-smoothing: antialiased;
+
+}
+.caixaForm {
+	background-color: lightgrey;
+	width: 400px;
+	margin: 0 auto;
+	border-radius: 35px;
+	margin-top: 200px;
+	align-items: center;
+	opacity: 0.8;
+
+}
+.form{
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: -80px;
+	align-items: center;
+	background-color: lightgrey;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.formGroup{
+	width:100%;
+	padding: 5px;
+	align-items: center; 
+}
+.formGroup input{
+	width:100%;
+	padding: 5px;
+}
+.buttonForm{
+	float: right;
+	margin-right: -14.8px;
+}
+#linkCadastro{
+	padding-top: 20px;
+	padding: 5px;
+}
+#linkCadastro a{
+	text-decoration: none;
+}
+.negrito{
+
+	font-weight: bolder;
+}
