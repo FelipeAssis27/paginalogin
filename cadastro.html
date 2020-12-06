@@ -8,55 +8,56 @@
 <body>
 	<div class="container">
 		<div class="caixaForm">
-			<form class="form">
+			<form class="form" action="#">
 				<div class="formGroup">
 					<label for="nome">Nome:</label>
-					<input type="text" id="nome" name="nome" />
+					<input type="text" id="nome" name="nome" required />
 				</div>
 				<div class="formGroup">
 					<label for="endereco">Endereço:</label>
-					<input type="text" id="endereco" name="endereco" />
+					<input type="text" id="endereco" name="endereco" required />
 				</div>
 				<div class="formGroup">
 					<label for="numero">Número:</label>
-					<input type="text" id="numero" name="numero" />
+					<input type="number" id="numero" name="numero" min="1" required />
 				</div>
 				<div class="formGroup">
 					<label for="bairro">Bairro:</label>
-					<input type="text" id="bairro" name="bairro" />
+					<input type="text" id="bairro" name="bairro" required />
 				</div>
 				<div class="formGroup">
 					<label for="cidade">Cidade:<label>
-					<input type="text" id="cidade" ame="cidade" >
+					<input type="text" id="cidade" ame="cidade" required />
 				</div>
 				<div class="formGroup">
 					<label for="estado">Estado:</label>
-					<input type="text" id="estado" name="estado" />
+					<input type="text" id="estado" name="estado" required />
 				</div>
 				<div class="formGroup">
 					<label for="cep">Cep:</label>
-					<input type="text" id="cep" name="cep" />
+					<input type="text" id="cep" name="cep" maxlength="8" required />
 				</div>
 				<div class="formGroup">
 					<label for="email">e-mail:</label>
-					<input type="text" id="email" name="email" />
+					<input type="email" id="email" name="email" required />
 				</div>
 				<div class="formGroup">
 					<label for="senha">Senha:</label>
-					<input type="text" id="senha" name="senha" />
+					<input type="password" id="senha" name="senha" required />
 				</div>
 				<div class="formGroup">
 					<label for="confirmaSenha">Confirme sua senha:</label>
-					<input type="text" id="confirmaSenha" name="confirmaSenha" />
+					<input type="password" id="confirmaSenha" name="confirmaSenha" required />
 				</div>
 				<div class="formGroup">
-					<button class="buttonForm">cadastrar</button>
+					<button type="submit" class="buttonForm">cadastrar</button>
 				</div>		
 			
 			</form>
 		</div>
 		
 	</div>
+	<script src="script.js" type="text/javascript"></script>
 
 </body>
 </html>
